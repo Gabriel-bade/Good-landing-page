@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    position: relative;
+}
+
+#searchInput {
+    width: calc(100% - 40px); /* Adjust according to icon width */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#searchButton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#searchButton img {
+    width: 20px; /* Adjust according to your icon size */
+    height: auto;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+#favorites {
+    margin-top: 20px;
+}
+
+#favorites h2 {
+    margin-top: 0;
+}
+

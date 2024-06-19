@@ -1,0 +1,49 @@
+/* || SMAIL */
+
+@media screen and (min-width: 576px) {
+    body {
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 1rem;
+    }
+
+}
+
+/* || MEDIUM */
+
+@media screen and (min-width: 768px) {
+    body {
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 1rem;
+    }
+}
+
+/* || LARGE */
+
+@media screen and (min-width: 992px) {
+    body {
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 1rem;
+    }
+}
+/* || XL */
+
+@media screen and (min-width: 1200px) {
+    body {
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 1rem;
+    }
+}
+
+/* || MOBILE DEVICE LANDSCAPE */
+
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 1rem;
+    }
+}
